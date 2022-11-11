@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function About() {
+export function About() {
   return (
     <section className="about-section section">
       <div className="about-section__content content-block">

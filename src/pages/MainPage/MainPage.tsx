@@ -1,6 +1,7 @@
 import './MainPage.scss';
-import About from 'components/About/About';
+import { About } from 'components/About/About';
 import React from 'react';
+import { Projects } from 'components/Projects/Projects';
 
 export default function MainPage() {
   return (
@@ -10,6 +11,7 @@ export default function MainPage() {
         <span className="logo__start-symbol">&#123;</span>
       </div>
       <About />
+      <Projects />
     </div>
   );
 }
