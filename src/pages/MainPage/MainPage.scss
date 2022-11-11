@@ -1,0 +1,11 @@
+@import '../../styles/colors.module';
+
+.logo__h1 {
+  display: inline-block;
+  margin: 0 2rem 2rem 0;
+}
+
+.logo__start-symbol {
+  font-size: 3rem;
+  color: $MainBlue;
+}

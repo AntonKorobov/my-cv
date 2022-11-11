@@ -1,3 +1,4 @@
+import './App.scss';
 import MainPage from 'pages/MainPage/MainPage';
 import Page404 from 'pages/Page404/Page404';
 import React from 'react';

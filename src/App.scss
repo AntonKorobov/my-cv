@@ -1,0 +1,53 @@
+@import './styles/colors.module';
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: $MainBlack;
+  font: 2rem 'Lucida Console', 'Courier New', monospace;
+  color: $MainWhite;
+}
+
+.container {
+  padding: 2rem;
+  border: 1px solid $MainWhite;
+}
+
+.h1 {
+  color: $MainYellow;
+}
+
+.h2 {
+  color: $MainPink;
+}
+
+.h3 {
+  color: $MainBlue;
+}
+
+.content-block {
+  padding: 1rem;
+  box-shadow: 3px 5px 0px 5px rgba(37, 37, 37, 0.76);
+  transition-duration: 0.5s;
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.title__h2 {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.title__start-symbol {
+  vertical-align: 20%;
+}
+
+.title__start-symbol {
+  color: $MainBlue;
+  font-size: 2rem;
+}
