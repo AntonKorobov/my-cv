@@ -1,0 +1,14 @@
+@media (min-width: 640px) {
+  .projects-section__projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects-section__projects-wrapper {
+    gap: 3%;
+  }
+}
