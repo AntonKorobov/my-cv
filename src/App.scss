@@ -4,7 +4,7 @@
   max-width: 1000px;
   margin: 0 auto;
   background-color: $MainBlack;
-  font: 2rem 'Lucida Console', 'Courier New', monospace;
+  font: 1.6rem 'Lucida Console', 'Courier New', monospace;
   color: $MainWhite;
 }
 
@@ -29,6 +29,24 @@
   color: $MainBlue;
 }
 
+a {
+  color: $MainWhite;
+  text-decoration: none;
+  &:link {
+    color: $MainWhite;
+  }
+  &:visited {
+    color: $MainWhite;
+  }
+  &:hover {
+    color: $MainWhite;
+    text-decoration: underline;
+  }
+  &:active {
+    color: $MainBlue;
+  }
+}
+
 .content-block {
   padding: 1rem;
   box-shadow: 3px 5px 0px 5px rgba(37, 37, 37, 0.76);
@@ -45,10 +63,8 @@
 .title__h2 {
   display: inline-block;
   margin-left: 1rem;
-}
-
-.title__start-symbol {
-  vertical-align: 20%;
+  margin-right: 1rem;
+  font-size: 2rem;
 }
 
 .title__start-symbol {

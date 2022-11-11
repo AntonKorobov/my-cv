@@ -1,7 +1,8 @@
 import './MainPage.scss';
-import { About } from 'components/About/About';
 import React from 'react';
+import { About } from 'components/About/About';
 import { Projects } from 'components/Projects/Projects';
+import { Contacts } from 'components/Contacts/Contacts';
 
 export default function MainPage() {
   return (
@@ -12,6 +13,7 @@ export default function MainPage() {
       </div>
       <About />
       <Projects />
+      <Contacts />
     </div>
   );
 }
