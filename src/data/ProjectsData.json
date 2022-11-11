@@ -1,0 +1,30 @@
+[
+  {
+    "title": "RS Lang",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "img": "assets/rs-lang.jpg",
+    "link": "",
+    "technologies": ["Webpack", "typescript"]
+  },
+  {
+    "title": "Online Store",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "img": "assets/online-store.jpg",
+    "link": "https://newanton.github.io/Online-store/",
+    "technologies": ["Webpack", "typescript"]
+  },
+  {
+    "title": "Rick and Morty",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "img": "assets/rick_and_morty.jpg",
+    "link": "https://ak-react-redux.netlify.app/",
+    "technologies": ["React", "Redux, Redux-ToolKit", "typescript", "Jest"]
+  },
+  {
+    "title": "Async-Race",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "img": "assets/image-not-found.jpg",
+    "link": "",
+    "technologies": ["Webpack", "typescript"]
+  }
+]

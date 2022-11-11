@@ -1,3 +1,5 @@
+@import '../../styles/colors.module';
+
 .project-card {
   position: relative;
   display: block;
@@ -6,6 +8,11 @@
   height: 25rem;
   padding: 0;
   margin-bottom: 2.5rem;
+  &:hover {
+    .project-card__image {
+      transform: scale(1.2);
+    }
+  }
 }
 
 @media (min-width: 640px) {
@@ -24,9 +31,6 @@
   width: 100%;
   z-index: 5;
   transition-duration: 0.5s;
-  &:hover {
-    transform: scale(1.2);
-  }
 }
 
 .project-card__info-wrapper {
@@ -34,9 +38,15 @@
   top: 0;
   left: 0;
   z-index: 10;
-  margin: 2rem;
+  padding: 2rem;
+  background-color: $MainBlack;
+  opacity: 0.9;
 }
 
 .project-card__title {
   margin-bottom: 1rem;
+}
+
+.project-card__info {
+  color: $MainWhite;
 }

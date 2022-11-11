@@ -16,13 +16,13 @@ export function Contacts() {
           </li>
           <li className="list__item">
             <h3 className="list__title">Email:</h3>
-            <a href="mailto: 1anton1korobov@gmail.com" className="list__info">
+            <a href="mailto: 1anton1korobov@gmail.com" className="list__info a">
               1anton1korobov@gmail.com
             </a>
           </li>
           <li className="list__item">
             <h3 className="list__title">GitHub:</h3>
-            <a href="https://github.com/NewAnton" className="list__info">
+            <a href="https://github.com/NewAnton" className="list__info a">
               github.com/NewAnton
             </a>
           </li>

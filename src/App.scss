@@ -1,6 +1,7 @@
 @import './styles/colors.module';
 
 .app {
+  min-width: 320px;
   max-width: 1000px;
   margin: 0 auto;
   background-color: $MainBlack;
@@ -28,7 +29,11 @@
   color: $MainBlue;
 }
 
-a {
+.p {
+  line-height: 1.5;
+}
+
+.a {
   color: $MainWhite;
   text-decoration: none;
   &:link {
