@@ -19,14 +19,9 @@ export function Projects() {
   };
 
   return (
-    <section className="projects-section section">
-      <div className="projects-section__content content-block">
-        <div className="projects-section__title title">
-          <span className="title__start-symbol">&#47;&#47;</span>
-          <h2 className="title__h2 h2">Projects</h2>
-        </div>
-        <div className="projects-section__projects-wrapper">{cardGenerator(projectsData)}</div>
-      </div>
+    <section className="projects-section section content-block">
+      <h2 className="h2">Projects</h2>
+      <div className="projects-section__projects-wrapper">{cardGenerator(projectsData)}</div>
     </section>
   );
 }
